@@ -24,8 +24,8 @@ Then open http://localhost:4321.
 
 ## Deploy (GitHub Pages)
 
-1. Push `main` to GitHub.
-2. Repo → Settings → Pages → Source: **Deploy from a branch**, `main` / `/ (root)`.
+1. Push `master` to GitHub.
+2. Repo → Settings → Pages → Source: **Deploy from a branch**, `master` / `/ (root)`.
 3. DNS for the apex domain: `A` records for `matchafinance.com` to
    `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    (and optionally `www` as a `CNAME` to `<user>.github.io`).
