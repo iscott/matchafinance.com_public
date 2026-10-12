@@ -110,6 +110,8 @@ h3 { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.
 .hero h1 { font-size: clamp(44px, 7.4vw, 88px); max-width: 15ch; margin: 16px auto 0; }
 .hero h1 em { font-style: normal; color: var(--accent); }
 .hero .lede { max-width: 620px; margin: 22px auto 0; }
+/* hand-drawn underline: a tapered brush stroke as an inline SVG stretched under the word */
+.scribble { white-space: nowrap; padding-bottom: 0.34em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none' fill='%232E7D5B'%3E%3Cpath d='M3 10.5C50 4 120 1.6 198 5.6 130 7 60 10.6 5.5 16.6 1.2 17 .2 11.8 3 10.5Z'/%3E%3C/svg%3E") left bottom / 100% 0.55em no-repeat; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 30px; }
 .cta-note { margin-top: 14px; font-size: 14px; color: var(--ink-3); }
 
@@ -285,9 +287,9 @@ section { padding: 104px 0; }
     <div class="wrap">
       <!-- <p class="eyebrow">Invoicing for freelancers &amp; small businesses</p> -->
       <h1 id="hero-title">Invoicing that's <em>easy</em> and <em>lightning&nbsp;fast</em>.</h1>
-      <p class="lede">Matcha Invoices is the <i>easiest</i> way to bill your clients and keep track of who owes what and when. So you can focus on running your business.</p>
+      <p class="lede">Matcha Invoices is the <strong><span class="scribble">easiest</span></strong> way to bill your clients, receive payments, and keep track of who owes what by when. So you can focus on running your business.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="https://app.matchafinance.com">Get Started Today</a>
+        <a class="btn btn-primary" href="https://app.matchafinance.com">Get Started Now</a>
         <!-- <a class="btn btn-ghost" href="https://app.matchafinance.com">Sign in</a> -->
       </div>
       <p class="cta-note">Already have an account? <a href="https://app.matchafinance.com">Sign in</a></p>
